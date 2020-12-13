@@ -1,4 +1,3 @@
-package DataStructureOperations;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -113,41 +112,22 @@ import java.util.PriorityQueue;
 			adjList.put(i, new ArrayList<Pair>());
 		}
 		
-		// 1
-		//Pair p12 = new Pair(2,3);
-		//Pair p13 = new Pair(3,5);
 		ArrayList<Pair> one = adjList.get(1);
 		List<Pair> oneList = Arrays.asList( new Pair(2,3), new Pair(3,5));
 		one.addAll(oneList);
 		
-		// 2
-		//Pair p21 = new Pair(1,3);
-		//Pair p23 = new Pair(3,1);
-		//Pair p24 = new Pair(4,2);
 		ArrayList<Pair> two = adjList.get(2);
 		List<Pair> twoList = Arrays.asList( new Pair(1,3), new Pair(3,1),new Pair(4,2));
 		two.addAll(twoList);
 		
-		// 3
-		//Pair p31 = new Pair(1,5);
-		//Pair p32 = new Pair(2,1);
-		//Pair p34 = new Pair(4,3);
-		//Pair p35 = new Pair(5,6);
 		ArrayList<Pair> three = adjList.get(3);
 		List<Pair> threeList = Arrays.asList( new Pair(1,5), new Pair(2,1),new Pair(4,3),new Pair(5,6));
 		three.addAll(threeList);
 		
-		// 4
-		//Pair p42 = new Pair(2,2);
-		//Pair p43 = new Pair(3,3);
-		//Pair p45 = new Pair(5,4);
 		ArrayList<Pair> four = adjList.get(4);
 		List<Pair> fourList = Arrays.asList( new Pair(2,2), new Pair(3,3),new Pair(5,4));
 		four.addAll(fourList);
 		
-		//5
-		//Pair p54 = new Pair(4,4);
-		//Pair p53 = new Pair(3,6);
 		ArrayList<Pair> five = adjList.get(5);
 		List<Pair> fiveList = Arrays.asList( new Pair(4,4), new Pair(3,6));
 		five.addAll(fiveList);

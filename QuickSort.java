@@ -1,4 +1,3 @@
-package DataStructure;
 
 import java.util.Random;
 
