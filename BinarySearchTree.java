@@ -1,4 +1,5 @@
 
+
 public class BinarySearchTree {
 	
 	class Node{
@@ -15,7 +16,7 @@ public class BinarySearchTree {
 		
 	}
 	
-	Node root = null;
+	static Node root = null;
 	
 	void insert(int key)  
     {  
@@ -66,7 +67,7 @@ public class BinarySearchTree {
         tree.insert(60); 
         tree.insert(80); 
         
-        
+        System.out.println(tree.search(root, 50));
 	}
 
 }
