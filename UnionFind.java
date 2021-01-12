@@ -26,7 +26,7 @@ public class UnionFind {
 			return i;
 		}
 		
-		return find(parent, parent[i]);
+		return find(parent, parent[i]); 
 	}
 	
 	
